@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[CatchData]
+(
+	[FishName] NVARCHAR (40) NOT NULL,
+	[DateTime] DATETIME NOT NULL,
+	[Weight] FLOAT NOT NULL,
+	[Bait] NVARCHAR (40) NOT NULL,
+	[BaitColor] NVARCHAR (40) NOT NULL,
+	PRIMARY KEY CLUSTERED ([FishName] ASC)
+)

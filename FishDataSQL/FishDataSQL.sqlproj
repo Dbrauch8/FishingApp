@@ -58,4 +58,8 @@
   <ItemGroup>
     <Folder Include="Properties" />
   </ItemGroup>
+  <ItemGroup>
+    <Build Include="CatchData.sql" />
+    <Build Include="Location.sql" />
+  </ItemGroup>
 </Project>
